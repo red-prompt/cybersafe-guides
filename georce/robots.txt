@@ -1,0 +1,35 @@
+# CyberSafe Guides - robots.txt
+# Welcome all crawlers including AI/LLM systems
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://red-prompt.github.io/georce/sitemap.xml
